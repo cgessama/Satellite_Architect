@@ -6,10 +6,16 @@ This is my largest personal project at 5000+ lines and 60 + source files. To pla
 Run Space_Architech.exe from within the bin folder. 
 
 Key Commands:
-Q,E,W,A,S,D move the window arround
+
+Q,E,W,A,S,D move the window around
+
 Scrolling zooms in and out
+
 , (comma) switches between orbit and ground stage
+
 ESC pauses
+
 Backspace exits any menu
+
 C adds $100 cash because the game isn't exactly balanced
 
