@@ -1,0 +1,63 @@
+Game Data: 
+	Money: 1049.79
+	Time Speed: 1
+Tech Stats: 
+	Basic Inteligence: 100
+	Station Management: 49.7998
+	Solar Cells: 0
+	Advanced Mechanics: 0
+	Matter Synthesis: 0
+Tech Queue: 
+	Basic Inteligence: 1
+Tech Queue End: 
+Stations: 
+	Station: 0
+	Stage: 0
+		Modules: 
+		Modules End: 
+		Teams: 
+		Teams End: 
+		GameSpace: 
+			Location X: 0
+			Location Y: 0
+			Scale: 1
+			Rotation: 360
+	Station: 1
+	Stage: 1
+		Modules: 
+			Module: 0
+				Type: 10
+				Oxygen: 100
+				Temperature: 20
+				Integrity: 1
+				Energy Stored: 0
+				Location X: -102
+				Location Y: -12
+				Rotation: 360
+			Module: 1
+				Type: 12
+				Oxygen: 100
+				Temperature: 20
+				Integrity: 1
+				Energy Stored: 0
+				Location X: -652
+				Location Y: -12
+				Rotation: 360
+		Modules End: 
+		Teams: 
+			Team: 0
+				Location X: -102
+				Location X: -12
+				Rotation: 360
+				Members: 3
+		Teams End: 
+		GameSpace: 
+			Location X: -55
+			Location Y: -55
+			Scale: 1
+			Rotation: 360
+Stations End: 
+Missions: 
+	Mission: 0 
+		Completed: 1
+end

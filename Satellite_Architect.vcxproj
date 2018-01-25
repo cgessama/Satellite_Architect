@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{40956D7D-7D7D-4A00-8535-9397AB418705}</ProjectGuid>
+    <RootNamespace>SpaceArchitect</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>C:\workspace\Code\Foundation\VisualStudioStuff\Simple OpenGL Image Library\lib;C:\workspace\Code\Foundation\VisualStudioStuff\SDL2-2.0.3\lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>C:\workspace\Code\Foundation\VisualStudioStuff\SDL2-2.0.3\include;C:\workspace\Code\Foundation\VisualStudioStuff\Simple OpenGL Image Library\src;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\workspace\Code\Foundation\VisualStudioStuff\SDL2-2.0.3\lib\x86;C:\workspace\Code\Foundation\VisualStudioStuff\Simple OpenGL Image Library\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\workspace\Code\Foundation\VisualStudioStuff\SDL2-2.0.3\include;C:\workspace\Code\Foundation\VisualStudioStuff\Simple OpenGL Image Library\src;C:\workspace\Code\WebsiteRepo\Space_Architect\Space_Architect;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>opengl32.lib;SDL2.lib;SDL2main.lib;SOIL.lib;legacy_stdio_definitions.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\workspace\Code\WebsiteRepo\Space_Architect\Space_Architect;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;SDL2.lib;SDL2main.lib;SOIL.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="SourceAstronauts\astronaut.h" />
+    <ClInclude Include="SourceAstronauts\team.h" />
+    <ClInclude Include="SourceCore\colide.h" />
+    <ClInclude Include="SourceCore\consts.h" />
+    <ClInclude Include="SourceCore\engine.h" />
+    <ClInclude Include="SourceCore\globals.h" />
+    <ClInclude Include="SourceCore\start_up.h" />
+    <ClInclude Include="SourceGame\subMain.h" />
+    <ClInclude Include="SourceGame\subMission.h" />
+    <ClInclude Include="SourceGame\subResearch.h" />
+    <ClInclude Include="SourceGame\subState.h" />
+    <ClInclude Include="SourceMission\Case.h" />
+    <ClInclude Include="SourceMission\Mission.h" />
+    <ClInclude Include="SourceModule\detail_enums.h" />
+    <ClInclude Include="SourceModule\modules.h" />
+    <ClInclude Include="SourceModule\mod_enums.h" />
+    <ClInclude Include="SourceOverlays\enums.h" />
+    <ClInclude Include="SourceOverlays\Overlays.h" />
+    <ClInclude Include="SourceResearch\Option.h" />
+    <ClInclude Include="SourceResearch\option_enums.h" />
+    <ClInclude Include="SourceStages\stages.h" />
+    <ClInclude Include="SourceStates\game_state.h" />
+    <ClInclude Include="SourceStates\states.h" />
+    <ClInclude Include="SourceStations\resource_enums.h" />
+    <ClInclude Include="SourceStations\stations.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SourceAstronauts\astronauts.cpp" />
+    <ClCompile Include="SourceAstronauts\team.cpp" />
+    <ClCompile Include="SourceCore\colide.cpp" />
+    <ClCompile Include="SourceCore\engine.cpp" />
+    <ClCompile Include="SourceCore\globals.cpp" />
+    <ClCompile Include="SourceCore\main.cpp" />
+    <ClCompile Include="SourceCore\start_up.cpp" />
+    <ClCompile Include="SourceGame\game_func.cpp" />
+    <ClCompile Include="SourceGame\game_state.cpp" />
+    <ClCompile Include="SourceGame\inHand.cpp" />
+    <ClCompile Include="SourceGame\saving.cpp" />
+    <ClCompile Include="SourceGame\subMain.cpp" />
+    <ClCompile Include="SourceGame\subMission.cpp" />
+    <ClCompile Include="SourceGame\subResearch.cpp" />
+    <ClCompile Include="SourceMission\Case.cpp" />
+    <ClCompile Include="SourceMission\Mission.cpp" />
+    <ClCompile Include="SourceModule\Ground\mod_coms.cpp" />
+    <ClCompile Include="SourceModule\Ground\mod_lanchpad.cpp" />
+    <ClCompile Include="SourceModule\Ground\mod_RandD.cpp" />
+    <ClCompile Include="SourceModule\Ground\mod_VAB.cpp" />
+    <ClCompile Include="SourceModule\mod_base.cpp" />
+    <ClCompile Include="SourceModule\Orbit\mod_adv.cpp" />
+    <ClCompile Include="SourceModule\Orbit\mod_arilock.cpp" />
+    <ClCompile Include="SourceModule\Orbit\mod_basic.cpp" />
+    <ClCompile Include="SourceModule\Orbit\mod_battery.cpp" />
+    <ClCompile Include="SourceModule\Orbit\mod_bio.cpp" />
+    <ClCompile Include="SourceModule\Orbit\mod_heater.cpp" />
+    <ClCompile Include="SourceModule\Orbit\mod_hex.cpp" />
+    <ClCompile Include="SourceModule\Orbit\mod_oxygenSynth.cpp" />
+    <ClCompile Include="SourceModule\Orbit\mod_oxygenTank.cpp" />
+    <ClCompile Include="SourceModule\Orbit\mod_solar.cpp" />
+    <ClCompile Include="SourceOverlays\detail_panel.cpp" />
+    <ClCompile Include="SourceOverlays\editor.cpp" />
+    <ClCompile Include="SourceOverlays\energy_info.cpp" />
+    <ClCompile Include="SourceOverlays\exit_menu.cpp" />
+    <ClCompile Include="SourceOverlays\info_banner.cpp" />
+    <ClCompile Include="SourceOverlays\Manager.cpp" />
+    <ClCompile Include="SourceOverlays\Overlays_Base.cpp" />
+    <ClCompile Include="SourceResearch\Option.cpp" />
+    <ClCompile Include="SourceStages\stages.cpp" />
+    <ClCompile Include="SourceStates\menu_load.cpp" />
+    <ClCompile Include="SourceStates\menu_state.cpp" />
+    <ClCompile Include="SourceStations\stations.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

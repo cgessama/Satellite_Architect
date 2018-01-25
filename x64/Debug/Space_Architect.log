@@ -1,0 +1,20 @@
+﻿  mod_bio.cpp
+c:\workspace\code\websiterepo\space_architect\space_architect\sourcemodule\orbit\mod_bio.cpp(12): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+engine.obj : error LNK2019: unresolved external symbol SOIL_load_OGL_texture referenced in function "public: __cdecl Picture::Picture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (??0Picture@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+main.obj : error LNK2019: unresolved external symbol SDL_GL_SwapWindow referenced in function "void __cdecl main_loop(void)" (?main_loop@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol SDL_GetMouseState referenced in function "void __cdecl main_loop(void)" (?main_loop@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function "void __cdecl main_loop(void)" (?main_loop@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol SDL_GetTicks referenced in function "void __cdecl main_loop(void)" (?main_loop@@YAXXZ)
+game_func.obj : error LNK2001: unresolved external symbol SDL_GetTicks
+main.obj : error LNK2019: unresolved external symbol SDL_Delay referenced in function "void __cdecl main_loop(void)" (?main_loop@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol SDL_Quit referenced in function SDL_main
+start_up.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function "void __cdecl init(void)" (?init@@YAXXZ)
+start_up.obj : error LNK2019: unresolved external symbol SDL_GL_SetAttribute referenced in function "void __cdecl init(void)" (?init@@YAXXZ)
+start_up.obj : error LNK2019: unresolved external symbol SDL_GL_CreateContext referenced in function "void __cdecl init(void)" (?init@@YAXXZ)
+start_up.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function "void __cdecl init(void)" (?init@@YAXXZ)
+game_state.obj : error LNK2019: unresolved external symbol SDL_GetKeyboardState referenced in function "public: __cdecl GameState::GameState(void)" (??0GameState@@QEAA@XZ)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\workspace\Code\Foundation\VisualStudioStuff\SDL2-2.0.3\lib\x86\SDL2.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\workspace\Code\Foundation\VisualStudioStuff\SDL2-2.0.3\lib\x86\SDL2main.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\workspace\Code\Foundation\VisualStudioStuff\Simple OpenGL Image Library\lib\SOIL.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\workspace\Code\WebsiteRepo\Space_Architect\x64\Debug\Space_Architect.exe : fatal error LNK1120: 13 unresolved externals

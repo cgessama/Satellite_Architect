@@ -1,0 +1,319 @@
+Game Data: 
+	Money: 987.449
+	Time Speed: 0
+Tech Stats: 
+	Basic Inteligence: 100
+	Station Management: 200.003
+	Solar Cells: 1000.9
+	Advanced Mechanics: 1000.53
+	Matter Synthesis: 115.999
+Tech Queue: 
+	Basic Inteligence: 4
+Tech Queue End: 
+Stations: 
+	Station: 0
+	Stage: 0
+		Modules: 
+			Module: 0
+				Type: 0
+				Oxygen: 0
+				Temperature: 0
+				Integrity: 0.983557
+				Energy Stored: 0.315502
+				Location X: -195
+				Location Y: 19
+				Rotation: 360
+			Module: 1
+				Type: 7
+				Oxygen: 0
+				Temperature: 0
+				Integrity: 1
+				Energy Stored: 0
+				Location X: -132.5
+				Location Y: 19
+				Rotation: 360
+			Module: 2
+				Type: 4
+				Oxygen: 98.7486
+				Temperature: 20
+				Integrity: 0.983557
+				Energy Stored: 0.315502
+				Location X: -30
+				Location Y: 19
+				Rotation: 330
+			Module: 3
+				Type: 0
+				Oxygen: 99.318
+				Temperature: 19.9268
+				Integrity: 0.983557
+				Energy Stored: 0.315502
+				Location X: 40
+				Location Y: -102.244
+				Rotation: 300
+			Module: 4
+				Type: 0
+				Oxygen: 98.6146
+				Temperature: 19.9558
+				Integrity: 0.983557
+				Energy Stored: 0.315502
+				Location X: 110
+				Location Y: 19
+				Rotation: 360
+			Module: 5
+				Type: 5
+				Oxygen: 100.045
+				Temperature: 19.8963
+				Integrity: 0.983557
+				Energy Stored: 0.315502
+				Location X: 71.6987
+				Location Y: -257.147
+				Rotation: 30
+			Module: 6
+				Type: 2
+				Oxygen: 0
+				Temperature: 0
+				Integrity: 1
+				Energy Stored: 0.01
+				Location X: -61.5545
+				Location Y: -276.346
+				Rotation: 30
+			Module: 7
+				Type: 2
+				Oxygen: 0
+				Temperature: 0
+				Integrity: 1
+				Energy Stored: 0.01
+				Location X: -11.5545
+				Location Y: -362.949
+				Rotation: 30
+			Module: 8
+				Type: 7
+				Oxygen: 0
+				Temperature: 0
+				Integrity: 1
+				Energy Stored: 0
+				Location X: 172.5
+				Location Y: 19
+				Rotation: 360
+			Module: 9
+				Type: 0
+				Oxygen: 100
+				Temperature: 19.906
+				Integrity: 0.983557
+				Energy Stored: 0.315502
+				Location X: 235
+				Location Y: 19
+				Rotation: 360
+			Module: 10
+				Type: 0
+				Oxygen: 99.6664
+				Temperature: 19.9382
+				Integrity: 0.984254
+				Energy Stored: 0.0100279
+				Location X: 335
+				Location Y: 19
+				Rotation: 90
+			Module: 11
+				Type: 0
+				Oxygen: 99.5277
+				Temperature: 20
+				Integrity: 0.984254
+				Energy Stored: 0.0100279
+				Location X: 435
+				Location Y: 19
+				Rotation: 360
+			Module: 12
+				Type: 2
+				Oxygen: 0
+				Temperature: 0
+				Integrity: 1
+				Energy Stored: 0.01
+				Location X: 235
+				Location Y: -56
+				Rotation: 90
+			Module: 13
+				Type: 3
+				Oxygen: 0
+				Temperature: 0
+				Integrity: 1
+				Energy Stored: 10000
+				Location X: 235
+				Location Y: 94
+				Rotation: 90
+			Module: 14
+				Type: 0
+				Oxygen: 98.4701
+				Temperature: 19.9288
+				Integrity: 0.984254
+				Energy Stored: 0.0100279
+				Location X: 40
+				Location Y: 140.244
+				Rotation: 330
+			Module: 15
+				Type: 5
+				Oxygen: 98.3363
+				Temperature: 19.8996
+				Integrity: 0.984254
+				Energy Stored: 0.0100279
+				Location X: 71.6987
+				Location Y: 295.147
+				Rotation: 330
+			Module: 16
+				Type: 3
+				Oxygen: 0
+				Temperature: 0
+				Integrity: 1
+				Energy Stored: 10000
+				Location X: -61.5544
+				Location Y: 314.346
+				Rotation: 330
+			Module: 17
+				Type: 3
+				Oxygen: 0
+				Temperature: 0
+				Integrity: 1
+				Energy Stored: 10000
+				Location X: -11.5544
+				Location Y: 400.949
+				Rotation: 330
+			Module: 18
+				Type: 1
+				Oxygen: 0
+				Temperature: 0
+				Integrity: 1
+				Energy Stored: 0.01
+				Location X: -87.5
+				Location Y: 118.593
+				Rotation: 300
+			Module: 19
+				Type: 1
+				Oxygen: 0
+				Temperature: 0
+				Integrity: 1
+				Energy Stored: 0.01
+				Location X: 510
+				Location Y: 19
+				Rotation: 180
+			Module: 20
+				Type: 9
+				Oxygen: 0
+				Temperature: 0
+				Integrity: 1
+				Energy Stored: 0.01
+				Location X: -395
+				Location Y: 19
+				Rotation: 270
+		Modules End: 
+		Teams: 
+			Team: 0
+				Location X: 235
+				Location X: 19
+				Rotation: 360
+				Members: 1
+			Team: 1
+				Location X: 335
+				Location X: 19
+				Rotation: 360
+				Members: 1
+			Team: 2
+				Location X: 435
+				Location X: 19
+				Rotation: 360
+				Members: 1
+			Team: 3
+				Location X: 71.6987
+				Location X: 295.147
+				Rotation: 360
+				Members: 1
+			Team: 4
+				Location X: 71.6987
+				Location X: -257.147
+				Rotation: 360
+				Members: 1
+		Teams End: 
+		GameSpace: 
+			Location X: 92.8229
+			Location Y: 92.8229
+			Scale: 0.888972
+			Rotation: 360
+	Station: 1
+	Stage: 1
+		Modules: 
+			Module: 0
+				Type: 10
+				Oxygen: 100
+				Temperature: 20
+				Integrity: 1
+				Energy Stored: 0
+				Location X: -48
+				Location Y: -80
+				Rotation: 360
+			Module: 1
+				Type: 12
+				Oxygen: 100
+				Temperature: 20
+				Integrity: 1
+				Energy Stored: 0
+				Location X: -598
+				Location Y: -80
+				Rotation: 360
+			Module: 2
+				Type: 13
+				Oxygen: 100
+				Temperature: 20
+				Integrity: 1
+				Energy Stored: 0
+				Location X: -48
+				Location Y: 370
+				Rotation: 360
+			Module: 3
+				Type: 13
+				Oxygen: 100
+				Temperature: 20
+				Integrity: 1
+				Energy Stored: 0
+				Location X: -898
+				Location Y: -80
+				Rotation: 360
+			Module: 4
+				Type: 11
+				Oxygen: 0
+				Temperature: 0
+				Integrity: 1
+				Energy Stored: 0
+				Location X: 852
+				Location Y: -80
+				Rotation: 360
+		Modules End: 
+		Teams: 
+			Team: 0
+				Location X: -48
+				Location X: -80
+				Rotation: 360
+				Members: 10
+			Team: 1
+				Location X: -598
+				Location X: -80
+				Rotation: 360
+				Members: 2
+			Team: 2
+				Location X: -898
+				Location X: -80
+				Rotation: 360
+				Members: 2
+			Team: 3
+				Location X: -48
+				Location X: 370
+				Rotation: 360
+				Members: 2
+		Teams End: 
+		GameSpace: 
+			Location X: 73.446
+			Location Y: 73.446
+			Scale: 1.35186
+			Rotation: 360
+Stations End: 
+Missions: 
+	Mission: 0 
+		Completed: 1
+end

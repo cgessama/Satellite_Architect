@@ -1,0 +1,40 @@
+Game Data: 
+	Money: 1500
+	Time Speed: 0
+Tech Stats: 
+	Basic Inteligence: 100
+	Station Management: 0
+	Solar Cells: 0
+	Advanced Mechanics: 0
+	Matter Synthesis: 0
+Tech Queue: 
+	Station Management: 1
+Tech Queue End: 
+Stations: 
+	Station: 0
+	Stage: 0
+		Modules: 
+		Modules End: 
+		Teams: 
+		Teams End: 
+		GameSpace: 
+			Location X: 0
+			Location Y: 0
+			Scale: 1
+			Rotation: 360
+	Station: 1
+	Stage: 1
+		Modules: 
+		Modules End: 
+		Teams: 
+		Teams End: 
+		GameSpace: 
+			Location X: 0
+			Location Y: 0
+			Scale: 1
+			Rotation: 360
+Stations End: 
+Missions: 
+	Mission: 0 
+		Completed: 0 
+end
